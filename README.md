@@ -25,43 +25,43 @@ Create Gre tunnel <br/>
 <br />
 <br />
 Create ikev2 proposal<br/>
-<img src="images/created ikev2 proposal.PNG" height="80%" width="80%"/>
+<img src="images/create zones 2.PNG" height="80%" width="80%"/>
 <br />
 <br />
 Create keyring<br/>
-<img src="images/created ikev2 keyring.PNG"  height="80%" width="80%"/>
+<img src="images/allow transfer on master 3.PNG"  height="80%" width="80%"/>
 <br />
 <br />
 Create ikev2 policy<br/>
-<img src="images/created ikev2 policy.PNG" height="80%" width="80%" />
+<img src="images/permissions 4.PNG" height="80%" width="80%" />
 <br />
 <br />
 Create ikev2 profile <br/>
-<img src="images/created ikev2 profile.PNG" height="80%" width="80%" />
+<img src="images/netplan 5.PNG" height="80%" width="80%" />
 <br />
 <br />
 Create transform set<br/>
-<img src="images/created transform set.PNG" height="80%" width="80%" />
+<img src="images/" height="80%" width="80%" />
 <br />
 <br />
  Create ipsec profile<br/>
- <img src="images/created ipsec profile.PNG" height="80%" width="80%" />
+ <img src="images/" height="80%" width="80%" />
 <br />
 <br />
  Map ipsec profile to gre tunnel<br/>
- <img src="images/liked ipsec profile to tunnel1.PNG" height="80%" width="80%" />
+ <img src="images/" height="80%" width="80%" />
 <br />
 <br />
   Ping pc on other network <br/>
- <img src="images/packets being sent through vpn.PNG" height="80%" width="80%" />
+ <img src="images/" height="80%" width="80%" />
 <br />
 <br />
     use command () to check if packets are being encrypted <br/>
-  <img src="images/packets being sent through vpn.PNG" height="80%" width="80%" />
+  <img src="images/" height="80%" width="80%" />
 <br />
 <br />
   packet capture <br/>
-  <img src="images/pings are encasulated in gre tunnel.PNG" height="80%" width="80%" />
+  <img src="images/" height="80%" width="80%" />
 <br />
 <br />
 
