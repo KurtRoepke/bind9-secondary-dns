@@ -1,9 +1,9 @@
-<h1> Ikev2 site to site vpn configuration</h1>
+<h1> Secondary bind9 dns server</h1>
 
  
 
 <h2>Description</h2>
- In this project I add a secondary dns server to an existing topology 
+ In this project I add a secondary dns server to an existing topology for network redundency.
 <br />
 
 
