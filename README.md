@@ -40,27 +40,29 @@ server. Then allow for the master to notify the the secondary of changes again
 could come in handy for troubleshooting ask me how i know.</p>
 <br />
 <br />
-Create ikev2 policy<br/>
+Setting permissions<br/>
 <img src="images/permissions 4.PNG" height="80%" width="80%" />
+<p>Set the permissions on the /etc/bind file to allow for zone transfers.</p>
 <br />
 <br />
-Create ikev2 profile <br/>
+Change ip address<br/>
 <img src="images/netplan 5.PNG" height="80%" width="80%" />
+<p>Change the dns address to the address of the secondary server.</p>
 <br />
 <br />
-Create transform set<br/>
+ blank<br/>
 <img src="images/" height="80%" width="80%" />
 <br />
 <br />
- Create ipsec profile<br/>
+ blank<br/>
  <img src="images/" height="80%" width="80%" />
 <br />
 <br />
- Map ipsec profile to gre tunnel<br/>
+ blank<br/>
  <img src="images/" height="80%" width="80%" />
 <br />
 <br />
-  Ping pc on other network <br/>
+  blank<br/>
  <img src="images/" height="80%" width="80%" />
 <br />
 <br />
