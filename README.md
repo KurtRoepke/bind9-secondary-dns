@@ -3,7 +3,7 @@
  
 
 <h2>Description</h2>
- In this project i created two autonomous networks symulating a wan then i connected those autonomous networks using an ikev2 vpn. Next i created a transform set to map the configuration to a GRE tunnel.
+ In this project I add a secondary dns server to an existing topology 
 <br />
 
 
