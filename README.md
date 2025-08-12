@@ -20,8 +20,10 @@
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Create Gre tunnel <br/>
+Copy named.conf.options <br/>
 <img src= "images/copy options file 1.PNG" height="80%" width="80%"/>
+ <P>Create a named.conf.options file that matches the file on the primary server.
+ just change the listen on ip address to match the secondary server.</P> <br/>
 <br />
 <br />
 Create ikev2 proposal<br/>
