@@ -21,7 +21,7 @@
 
 <p align="center">
 Create Gre tunnel <br/>
-<img src= "images/created ger tunnel 1.PNG" height="80%" width="80%"/>
+<img src= "images/copy options file 1.PNG" height="80%" width="80%"/>
 <br />
 <br />
 Create ikev2 proposal<br/>
