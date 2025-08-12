@@ -33,8 +33,11 @@ using the master servers ip. Next allow for the secondary server to notify the p
 server it could come in handy for troubleshooting.</p>
 <br />
 <br />
-Create keyring<br/>
+Transfer on master<br/>
 <img src="images/allow transfer on master 3.PNG"  height="80%" width="80%"/>
+<p>Allow the transfer on the master server and adding the ip address to the secondary
+server. Then allow for the master to notify the the secondary of changes again 
+could come in handy for troubleshooting ask me how i know.</p>
 <br />
 <br />
 Create ikev2 policy<br/>
