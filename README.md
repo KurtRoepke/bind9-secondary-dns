@@ -28,16 +28,16 @@ Create named.conf.options <br/>
 <br />
 Create named.conf.local<br/>
 <img src="images/create zones 2.PNG" height="80%" width="80%"/>
-<p>Create zones in the named.conf.local file. create a link to the master server
-using the master servers ip. Next allow for the secondary server to notify the primary
-server it could come in handy for troubleshooting.</p>
+<p>Create zones in the named.conf.local file. create a link to the master 
+ server using the master servers ip. Next allow for the secondary server
+ to notify the primary server it could come in handy for troubleshooting.</p>
 <br />
 <br />
 Transfer on master<br/>
 <img src="images/allow transfer on master 3.PNG"  height="80%" width="80%"/>
-<p>Allow the transfer on the master server and adding the ip address to the secondary
-server. Then allow for the master to notify the the secondary of changes again 
-could come in handy for troubleshooting ask me how i know.</p>
+<p>Allow the transfer on the master server and adding the ip address to the 
+ secondary server. Then allow for the master to notify the the secondary 
+ of changes again could come in handy for troubleshooting ask me how i know.</p>
 <br />
 <br />
 Setting permissions<br/>
