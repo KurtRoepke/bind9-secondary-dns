@@ -22,32 +22,32 @@
 <p align="center">
 Create named.conf.options <br/>
 <img src= "images/copy options file 1.PNG" height="80%" width="80%"/>
- <P>Create a named.conf.options file that matches the file on the primary server.
+ <P align="center">Create a named.conf.options file that matches the file on the primary server.
  just change the listen on ip address to match the secondary server.</P> <br/>
 <br />
 <br />
 Create named.conf.local<br/>
 <img src="images/create zones 2.PNG" height="80%" width="80%"/>
-<p>Create zones in the named.conf.local file. create a link to the master 
+<p align="center">Create zones in the named.conf.local file. create a link to the master 
  server using the master servers ip. Next allow for the secondary server
  to notify the primary server it could come in handy for troubleshooting.</p>
 <br />
 <br />
 Transfer on master<br/>
 <img src="images/allow transfer on master 3.PNG"  height="80%" width="80%"/>
-<p>Allow the transfer on the master server and adding the ip address to the 
+<p align="center">Allow the transfer on the master server and adding the ip address to the 
  secondary server. Then allow for the master to notify the the secondary 
  of changes again could come in handy for troubleshooting ask me how i know.</p>
 <br />
 <br />
 Setting permissions<br/>
 <img src="images/permissions 4.PNG" height="80%" width="80%" />
-<p>Set the permissions on the /etc/bind file to allow for zone transfers.</p>
+<p align="center">Set the permissions on the /etc/bind file to allow for zone transfers.</p>
 <br />
 <br />
 Change ip address<br/>
 <img src="images/netplan 5.PNG" height="80%" width="80%" />
-<p>Change the dns address to the address of the secondary server.</p>
+<p align="center">Change the dns address to the address of the secondary server.</p>
 <br />
 <br />
  blank<br/>
