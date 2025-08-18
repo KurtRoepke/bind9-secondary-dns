@@ -22,56 +22,72 @@
 <p align="center">
 Create named.conf.options <br/>
 <img src= "images/copy options file 1.PNG" height="80%" width="80%"/>
- <P align="center">Create a named.conf.options file that matches the file on the primary server.
- just change the listen on ip address to match the secondary server.</P> <br/>
+ <br />
+ Create a named.conf.options file that matches the file on the primary server.
+ just change the listen on ip address to match the secondary server.<br/>
 <br />
 <br />
 Create named.conf.local<br/>
 <img src="images/create zones 2.PNG" height="80%" width="80%"/>
-<p align="center">Create zones in the named.conf.local file. create a link to the master 
+ <br />
+Create zones in the named.conf.local file. create a link to the master 
  server using the master servers ip. Next allow for the secondary server
- to notify the primary server it could come in handy for troubleshooting.</p>
+ to notify the primary server it could come in handy for troubleshooting.<br />
 <br />
 <br />
 Transfer on master<br/>
 <img src="images/allow transfer on master 3.PNG"  height="80%" width="80%"/>
-<p align="center">Allow the transfer on the master server and adding the ip address to the 
+ <br />
+Allow the transfer on the master server and adding the ip address to the 
  secondary server. Then allow for the master to notify the the secondary 
- of changes again could come in handy for troubleshooting ask me how i know.</p>
+ of changes again could come in handy for troubleshooting ask me how i know.<br />
 <br />
 <br />
 Setting permissions<br/>
 <img src="images/permissions 4.PNG" height="80%" width="80%" />
-<p align="center">Set the permissions on the /etc/bind file to allow for zone transfers.</p>
+ <br />
+Set the permissions on the /etc/bind file to allow for zone transfers.<br />
 <br />
 <br />
 Change ip address<br/>
 <img src="images/netplan 5.PNG" height="80%" width="80%" />
-<p align="center">Change the dns address to the address of the secondary server.</p>
+ <br />
+<p align="center">Change the dns address to the address of the secondary server.<br />
 <br />
 <br />
  blank<br/>
 <img src="images/" height="80%" width="80%" />
+ <br />
+ text<br />
 <br />
 <br />
  blank<br/>
  <img src="images/" height="80%" width="80%" />
+ <br />
+ text<br />
 <br />
 <br />
  blank<br/>
  <img src="images/" height="80%" width="80%" />
+ <br />
+ text<br />
 <br />
 <br />
   blank<br/>
  <img src="images/" height="80%" width="80%" />
+ <br />
+ text<br />
 <br />
 <br />
     use command () to check if packets are being encrypted <br/>
+ <br />
   <img src="images/" height="80%" width="80%" />
+ text<br />
 <br />
 <br />
   packet capture <br/>
   <img src="images/" height="80%" width="80%" />
+ text<br />
 <br />
 <br />
 
