@@ -27,13 +27,13 @@ Topology in use <br/>
  an asa firewall connected to the outside network.<br/>
 <br />
 <br />
-Download bind9<br/>
+Install updates<br/>
 <img src="images/install-files 1.PNG" height="80%" width="80%"/>
  <br />
 Update ubuntu using using sudo apt-get update before installing bind9.<br />
 <br />
 <br />
-
+Install bind9<br/>
 <img src="images/named.conf.options 3.PNG" height="80%" width="80%" />
  <br />
   Set up the named.conf.options file with an acl so only permited clients can this
