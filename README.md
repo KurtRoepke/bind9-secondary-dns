@@ -36,10 +36,7 @@ Update ubuntu using using sudo apt-get update before installing bind9.<br />
 Install bind9<br/>
 <img src="images/named.conf.options 3.PNG" height="80%" width="80%" />
  <br />
-  Set up the named.conf.options file with an acl so only permited clients can this
-  dns server This is also where we allow queries and set up forwoarders. This file 
-  will be set up simmilar to the master server. <br />
-<br />
+
 <br />
 <br/>
 <img src="images/name.conf.local-slave 4.PNG" height="80%" width="80%" />
