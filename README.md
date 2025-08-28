@@ -56,7 +56,7 @@ file name.<br />
 Declare zones on secondary dns <br/>
 <img src="images/name.conf.local-slave 4.PNG" height="80%" width="80%" />
  <br />
- start here<br />
+ Here we have to declare<br />
 <br />
 <br />
 
@@ -87,6 +87,7 @@ Test functionality <br/>
  text<br />
 <br />
 <br />
+<p/>
 
 <!--
  ```diff
