@@ -38,7 +38,7 @@ Install bind9<br/>
  <br />
 <br/>
 named.conf.options 
-<img src="images/" height="80%" width="80%" />
+<img src="images/named.conf.options-secondary.PNG" height="80%" width="80%" />
  <br />
  Set up the named.conf.options file with an acl so only permited clients can this
   dns server This is also where we allow queries and set up forwoarders. This file 
@@ -73,17 +73,6 @@ Test functionality <br/>
  <br />
  Im on a client pc and changed the nameserver in the netplan file to use only the secondary
  server. I can resolve domain names from my zone so it is working.<br />
-<br />
-<br />
-    use command () to check if packets are being encrypted <br/>
- <br />
-  <img src="images/" height="80%" width="80%" />
- text<br />
-<br />
-<br />
-  packet capture <br/>
-  <img src="images/" height="80%" width="80%" />
- text<br />
 <br />
 <br />
 <p/>
