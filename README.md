@@ -36,15 +36,17 @@ Update ubuntu using using sudo apt-get update before installing bind9.<br />
 Allow zone transfer<br/>
 <img src="images/named.conf.local-master 2.PNG"  height="80%" width="80%"/>
  <br />
-Allow the transfer on the master server and adding the ip address to the 
+!!Allow the transfer on the master server and adding the ip address to the 
  secondary server. Then allow for the master to notify the the secondary 
- of changes again could come in handy for troubleshooting ask me how i know.<br />
+ of changes again could come in handy for troubleshooting ask me how i know.!!<br />
 <br />
 <br />
  <br/>
 <img src="images/named.conf.options 3.PNG" height="80%" width="80%" />
  <br />
-Set the permissions on the /etc/bind file to allow for zone transfers.<br />
+  Set up the named.conf.options file with an acl so only permited clients can this
+  dns server This is also where we allow queries and set up forwoarders. This file 
+  will be set up simmilar to the master server. <br />
 <br />
 <br />
 <br/>
