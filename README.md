@@ -52,7 +52,7 @@ Set the permissions on the /etc/bind file to allow for zone transfers.<br />
 <br/>
 <img src="images/name.conf.local-slave 4.PNG" height="80%" width="80%" />
  <br />
-<p align="center">Change the dns address to the address of the secondary server.<br />
+ Change the dns address to the address of the secondary server.<br />
 <br />
 <br />
  blank<br/>
@@ -64,19 +64,22 @@ Set the permissions on the /etc/bind file to allow for zone transfers.<br />
  blank<br/>
  <img src="images/named.conf.local 6.PNG" height="80%" width="80%" />
  <br />
- text<br />
+ <br />
 <br />
 <br />
  blank<br/>
  <img src="images/named.local-master 7.PNG" height="80%" width="80%" />
  <br />
- text<br />
+ We have to tell the primary server the address of the secondary server so it knows 
+ where to sent the copy of the zone file. Im also going to allow the primary server to
+ notify the secondary server when changes happen.text<br />
 <br />
 <br />
   blank<br/>
  <img src="images/remote-client-test 8.PNG" height="80%" width="80%" />
  <br />
- text<br />
+ Im on a client pc and changed the nameserver in the netplan file to use only the secondary
+ server. I can resolve domain names from my zone so it is working.<br />
 <br />
 <br />
     use command () to check if packets are being encrypted <br/>
