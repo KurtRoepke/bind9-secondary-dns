@@ -37,14 +37,7 @@ Install bind9<br/>
 <img src="images/named.conf.options 3.PNG" height="80%" width="80%" />
  <br />
 <br/>
- Zone transfer from primary server<br/>
-<img src="images/named.conf.local-master 2.PNG" height="80%" width="80%" />
- <br />
-  We have to tell the primary server the address of the secondary server so it knows 
- where to sent the copy of the zone file. Im also going to allow the primary server to
- notify the secondary server when changes happen.text<br />
-<br />
-<br />
+
  conf.options slave<br/>
 <img src="images/named.conf.options 3.PNG" height="80%" width="80%" />
  <br />
@@ -63,7 +56,15 @@ Install bind9<br/>
 <br />
 <br />
 <br />
-  Test functionality <br/>
+ Zone transfer from primary server<br/>
+<img src="images/named.conf.local-master 2.PNG" height="80%" width="80%" />
+ <br />
+  We have to tell the primary server the address of the secondary server so it knows 
+ where to sent the copy of the zone file. Im also going to allow the primary server to
+ notify the secondary server when changes happen.text<br />
+<br />
+<br />
+Test functionality <br/>
  <img src="images/remote-client-test 8.PNG" height="80%" width="80%" />
  <br />
  Im on a client pc and changed the nameserver in the netplan file to use only the secondary
