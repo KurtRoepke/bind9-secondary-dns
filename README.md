@@ -37,25 +37,30 @@ Install bind9<br/>
 <img src="images/named.conf.options 3.PNG" height="80%" width="80%" />
  <br />
 <br/>
-
- conf.options slave<br/>
-<img src="images/named.conf.options 3.PNG" height="80%" width="80%" />
+install between here----------------------------
+named.conf.options need pic
+<img src="images/" height="80%" width="80%" />
  <br />
- text<br />
+ Set up the named.conf.options file with an acl so only permited clients can this
+  dns server This is also where we allow queries and set up forwoarders. This file 
+  will be set up simmilar to the master server.<br />
 <br />
 <br />
- Check file configuration<br/>
- <img src="images/check-conf 5.PNG" height="80%" width="80%" />
+named-checkconf
+<img src="images/check-conf 5.PNG" height="80%" width="80%" />
+ <br />
+ To check the syntax of our files use named-checkconf followed buy the 
+file name.<br />
+<br />
+<br />
+Declare zones on secondary dns <br/>
+<img src="images/name.conf.local-slave 4.PNG" height="80%" width="80%" />
  <br />
  start here<br />
 <br />
 <br />
- Declare zones <br/>
- <img src="images/named.conf.local 6.PNG" height="80%" width="80%" />
- <br />
-<br />
-<br />
-<br />
+
+install between here------------
  Zone transfer from primary server<br/>
 <img src="images/named.conf.local-master 2.PNG" height="80%" width="80%" />
  <br />
