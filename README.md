@@ -23,16 +23,14 @@
 Topology in use <br/>
 <img src= "images/topology 1.PNG" height="80%" width="80%"/>
  <br />
- Create a named.conf.options file that matches the file on the primary server.
- just change the listen on ip address to match the secondary server.<br/>
+ The topology we are using has two subnets a inside interface and a dmz connected to 
+ an asa firewall connected to the outside network.<br/>
 <br />
 <br />
 Download bind9<br/>
 <img src="images/install-files 1.PNG" height="80%" width="80%"/>
  <br />
-Create zones in the named.conf.local file. create a link to the master 
- server using the master servers ip. Next allow for the secondary server
- to notify the primary server it could come in handy for troubleshooting.<br />
+Update ubuntu using using sudo apt-get update before installing bind9.<br />
 <br />
 <br />
 Allow zone transfer<br/>
