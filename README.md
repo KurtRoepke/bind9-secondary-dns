@@ -20,61 +20,61 @@
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Create named.conf.options <br/>
-<img src= "images/copy options file 1.PNG" height="80%" width="80%"/>
+Topology in use <br/>
+<img src= "images/topology 1.PNG" height="80%" width="80%"/>
  <br />
  Create a named.conf.options file that matches the file on the primary server.
  just change the listen on ip address to match the secondary server.<br/>
 <br />
 <br />
-Create named.conf.local<br/>
-<img src="images/create zones 2.PNG" height="80%" width="80%"/>
+Download bind9<br/>
+<img src="images/install-files 1.PNG" height="80%" width="80%"/>
  <br />
 Create zones in the named.conf.local file. create a link to the master 
  server using the master servers ip. Next allow for the secondary server
  to notify the primary server it could come in handy for troubleshooting.<br />
 <br />
 <br />
-Transfer on master<br/>
-<img src="images/allow transfer on master 3.PNG"  height="80%" width="80%"/>
+Allow zone transfer<br/>
+<img src="images/named.conf.local-master 2.PNG"  height="80%" width="80%"/>
  <br />
 Allow the transfer on the master server and adding the ip address to the 
  secondary server. Then allow for the master to notify the the secondary 
  of changes again could come in handy for troubleshooting ask me how i know.<br />
 <br />
 <br />
-Setting permissions<br/>
-<img src="images/permissions 4.PNG" height="80%" width="80%" />
+ <br/>
+<img src="images/named.conf.options 3.PNG" height="80%" width="80%" />
  <br />
 Set the permissions on the /etc/bind file to allow for zone transfers.<br />
 <br />
 <br />
-Change ip address<br/>
-<img src="images/netplan 5.PNG" height="80%" width="80%" />
+<br/>
+<img src="images/name.conf.local-slave 4.PNG" height="80%" width="80%" />
  <br />
 <p align="center">Change the dns address to the address of the secondary server.<br />
 <br />
 <br />
  blank<br/>
-<img src="images/" height="80%" width="80%" />
+<img src="images/check-conf 5.PNG" height="80%" width="80%" />
  <br />
  text<br />
 <br />
 <br />
  blank<br/>
- <img src="images/" height="80%" width="80%" />
+ <img src="images/named.conf.local 6.PNG" height="80%" width="80%" />
  <br />
  text<br />
 <br />
 <br />
  blank<br/>
- <img src="images/" height="80%" width="80%" />
+ <img src="images/named.local-master 7.PNG" height="80%" width="80%" />
  <br />
  text<br />
 <br />
 <br />
   blank<br/>
- <img src="images/" height="80%" width="80%" />
+ <img src="images/remote-client-test 8.PNG" height="80%" width="80%" />
  <br />
  text<br />
 <br />
