@@ -37,8 +37,7 @@ Install bind9<br/>
 <img src="images/named.conf.options 3.PNG" height="80%" width="80%" />
  <br />
 <br/>
-install between here----------------------------
-named.conf.options need pic
+named.conf.options 
 <img src="images/" height="80%" width="80%" />
  <br />
  Set up the named.conf.options file with an acl so only permited clients can this
@@ -56,11 +55,11 @@ file name.<br />
 Declare zones on secondary dns <br/>
 <img src="images/name.conf.local-slave 4.PNG" height="80%" width="80%" />
  <br />
- Here we have to declare<br />
+ Here we have to tell the secondary server where to find the updates for
+ the zone so we have to tell it what the primary ip is and what the file name is
+ on the primary server.<br />
 <br />
 <br />
-
-install between here------------
  Zone transfer from primary server<br/>
 <img src="images/named.conf.local-master 2.PNG" height="80%" width="80%" />
  <br />
