@@ -64,7 +64,7 @@ Install bind9<br/>
  notify the secondary server when changes happen.text<br />
 <br />
 <br />
-  blank<br/>
+  Test functionality <br/>
  <img src="images/remote-client-test 8.PNG" height="80%" width="80%" />
  <br />
  Im on a client pc and changed the nameserver in the netplan file to use only the secondary
