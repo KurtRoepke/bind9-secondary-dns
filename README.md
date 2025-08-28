@@ -21,6 +21,7 @@
 
 <p align="center">
 Topology in use <br/>
+ <br />
 <img src= "images/topology 1.PNG" height="80%" width="80%"/>
  <br />
  The topology we are using has two subnets a inside interface and a dmz connected to 
@@ -28,24 +29,28 @@ Topology in use <br/>
 <br />
 <br />
 Install updates<br/>
+ <br />
 <img src="images/install-files 1.PNG" height="80%" width="80%"/>
  <br />
 Update ubuntu using using sudo apt-get update before installing bind9.<br />
 <br />
 <br />
 Install bind9<br/>
-<img src="images/named.conf.options 3.PNG" height="80%" width="80%" />
  <br />
+<img src="images/named.conf.options 3.PNG" height="80%" width="80%" />
+<br />
 <br/>
 named.conf.options 
-<img src="images/named.conf.options-secondary.PNG" height="80%" width="80%" />
  <br />
+<img src="images/named.conf.options-secondary.PNG" height="80%" width="80%" />
+<br />
  Set up the named.conf.options file with an acl so only permited clients can this
-  dns server This is also where we allow queries and set up forwoarders. This file 
-  will be set up simmilar to the master server.<br />
+dns server This is also where we allow queries and set up forwoarders. This file 
+ will be set up simmilar to the master server.<br />
 <br />
 <br />
 named-checkconf
+ <br />
 <img src="images/check-conf 5.PNG" height="80%" width="80%" />
  <br />
  To check the syntax of our files use named-checkconf followed buy the 
@@ -53,6 +58,7 @@ file name.<br />
 <br />
 <br />
 Declare zones on secondary dns <br/>
+ <br />
 <img src="images/name.conf.local-slave 4.PNG" height="80%" width="80%" />
  <br />
  Here we have to tell the secondary server where to find the updates for
@@ -61,6 +67,7 @@ Declare zones on secondary dns <br/>
 <br />
 <br />
  Zone transfer from primary server<br/>
+ <br />
 <img src="images/named.conf.local-master 2.PNG" height="80%" width="80%" />
  <br />
   We have to tell the primary server the address of the secondary server so it knows 
@@ -69,6 +76,7 @@ Declare zones on secondary dns <br/>
 <br />
 <br />
 Test functionality <br/>
+ <br />
  <img src="images/remote-client-test 8.PNG" height="80%" width="80%" />
  <br />
  Im on a client pc and changed the nameserver in the netplan file to use only the secondary
