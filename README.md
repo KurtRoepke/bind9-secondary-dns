@@ -51,18 +51,16 @@ Install bind9<br/>
  text<br />
 <br />
 <br />
- blank<br/>
- <img src="images/name.conf.local-slave 4.PNG" height="80%" width="80%" />
+ Check file configuration<br/>
+ <img src="images/check-conf 5.PNG" height="80%" width="80%" />
  <br />
  start here<br />
 <br />
 <br />
- blank<br/>
- <img src="images/named.local-master 7.PNG" height="80%" width="80%" />
+ Declare zones <br/>
+ <img src="images/named.conf.local 6.PNG" height="80%" width="80%" />
  <br />
- We have to tell the primary server the address of the secondary server so it knows 
- where to sent the copy of the zone file. Im also going to allow the primary server to
- notify the secondary server when changes happen.text<br />
+<br />
 <br />
 <br />
   Test functionality <br/>
